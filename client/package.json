@@ -1,0 +1,35 @@
+{
+  "name": "calvin-website",
+  "version": "1.0.0",
+  "description": "Calvin Nguyen's Personal Website",
+  "main": "index.js",
+  "homepage": "https://narucalo.github.io/calvin-webpage",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^3.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
